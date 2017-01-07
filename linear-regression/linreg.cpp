@@ -1,3 +1,8 @@
+/*
+author: Masum Billal
+Algorithm: Linear regression (least squares version for 2d points)
+*/
+
 #include <bits/stdc++.h>
 
 #define MAX 1000001
@@ -5,9 +10,9 @@
 using namespace std;
 
 #include "linreg.h"
+/*assumes that at least there are two distinct points in the set*/
 
 double denominator(Point P[], int n, double avg_x){
-	/*assumes that at least there are two distinct points in the set*/
 	double sum = 0;
 	for (int i = 0; i < n; i++){
 		double dx = P[i].x-avg_x;
