@@ -1,2 +1,1 @@
-# cppmllib
-A C++ library for Machine Learning algorithms.
+This is a C++ library of some machine learning algorithms.
